@@ -4,11 +4,12 @@ Use filtering to achieve a more accurate representation of where the car is usin
 Use a kalman filter to estimate location of RC using data from the GPS and IMU. 
 
 ## The Model
-State: X Position  
-       Y Position(t)  
-       Velocity  
-       Reference Angle  
-       Angular Velocity  
+States: 
+- X Position  
+- Y Position(t)  
+- Velocity  
+- Reference Angle  
+- Angular Velocity  
        
 ### Continuous Model
 d/dt(x) = v(t) * cos(theta(t))  
